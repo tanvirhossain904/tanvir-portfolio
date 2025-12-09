@@ -4,11 +4,16 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "dev:node": "node node_modules\\next\\dist\\bin\\next dev",
     "build": "next build",
+    "build:node": "node node_modules\\next\\dist\\bin\\next build",
     "start": "next start",
-    "lint": "eslint"
+    "start:node": "node node_modules\\next\\dist\\bin\\next start",
+    "lint": "eslint",
+    "lint:node": "node node_modules\\.bin\\eslint"
   },
   "dependencies": {
+    "lucide-react": "^0.556.0",
     "next": "16.0.8",
     "react": "19.2.1",
     "react-dom": "19.2.1"
